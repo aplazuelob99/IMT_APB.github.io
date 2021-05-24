@@ -17,10 +17,28 @@
                     <img src="{{ asset('img/logo.svg') }}" width="50%" height="50%" style="margin-left:20%">
                 </div>
                 <div class="menu">
-                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-home"></i> Inicio</a>
-                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-briefcase"></i> Proyectos</a>
-                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-phone"></i> Contacto</a>
-                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-cloud-download-alt"></i> Descargar curriculum</a>
+                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-home"></i>
+                        Inicio
+                        <div style="float: right;" id="logoflecha">
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-briefcase"></i>
+                        Proyectos
+                        <div style="float: right;" id="logoflecha">
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-phone"></i>
+                        Contacto
+                        <div style="float: right;" id="logoflecha">
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="d-block text-light font-weight-bold p-3 mb-1" id="opciones"><i class="fas fa-cloud-download-alt"></i>
+                        Descargar curriculum
+
+                    </a>
                 </div>
 
             </div>
@@ -96,6 +114,8 @@
     </body>
 
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/efectosInfo.js') }}"></script>
+
 
     <script>
 
