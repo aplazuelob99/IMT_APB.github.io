@@ -28,6 +28,12 @@ body{
     color: black !important;
 }
 
+.menu a:focus{
+
+    background-color: #41b8e7 !important;
+    color: black !important;
+}
+
 #idiomas{
     background-color: #189fd4;
     text-decoration: none;
